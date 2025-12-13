@@ -1,0 +1,115 @@
+
+
+body{
+    font-family: Arial;
+    background-color: #ededed;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+#heading{
+    text-align: center;
+    padding: 0px 100px;
+}
+
+#btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#input-btn{
+    width: 27vw;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 17px;
+    text-align: center;
+}
+
+#price-btn{
+    width: 5vw;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 17px;
+    text-align: center;
+}
+
+#date-btn{
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 17px;
+    text-align: center;
+}
+
+#date-btn:hover{
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+#add-btn{
+    border: none;
+    border-radius: 30px;
+    background-color: #b1b1b1;
+    height: 20px;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    box-shadow: 0px 2px 4px black;
+}
+
+#add-btn:hover{
+    cursor: pointer;
+    background-color: #8c8c8c;
+}
+
+
+#userinput{
+    overflow: auto;
+    height: 60vh;
+    width: 50vw;
+    background-color: #e0e0e0;
+    gap:3px;
+    border: 1px solid black;
+    flex-shrink: 20vw;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#delete:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 360px) {
+    #userinput{
+    overflow: auto;
+    height: 60vh;
+    width: 99vw;
+    background-color: #e0e0e0;
+    gap:3px;
+    border: 1px solid black;
+    flex-shrink: 20vw;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#price-btn{
+    width: 10vw;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 17px;
+    text-align: center;
+}
+
+#heading{
+    text-align: center;
+    padding: 0px 25px;
+}
+}
